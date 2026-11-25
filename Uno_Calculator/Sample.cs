@@ -11,6 +11,10 @@ namespace Uno_Calculator
         static void Main(string[] args)
         {
 
+            Console.WriteLine("Out put :"+Add(10,20));
+            Console.WriteLine("Subtraction o/p: "+Subtraction(50 , 10));
+
+
            
             Console.WriteLine("Out put :"+Divide(100, 20));
 
@@ -19,12 +23,13 @@ namespace Uno_Calculator
             Console.WriteLine("Out put of addition :"+Add(10,20));
             Console.WriteLine("Modulus :"+Modulus(12,5));
 
+
         }
 
         static int Add(int a, int b)
            
         {
-            return a + b;
+            return a + b+10;
             
         }
         static int Divide(int a, int b) {
@@ -43,6 +48,10 @@ namespace Uno_Calculator
             }
             return (a / b) * 100;
 
+        }
+        static int Subtraction(int a, int b)
+        {
+            return a - b;
         }
     }
 }
