@@ -10,7 +10,7 @@ namespace Uno_Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Out put :"+Add(10,20));
+            Console.WriteLine("Out put of addition :"+Add(10,20));
             Console.WriteLine("Modulus :"+Modulus(12,5));
         }
 
