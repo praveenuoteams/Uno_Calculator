@@ -16,7 +16,7 @@ namespace Uno_Calculator
 
         static int Add(int a, int b)
         {
-            return a + b;
+            return a + b + 10;
         }
         static int Modulus(int c, int d)
         {
