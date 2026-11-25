@@ -18,7 +18,7 @@ namespace Uno_Calculator
            
             Console.WriteLine("Out put :"+Divide(100, 20));
 
-            Console.WriteLine("Out put  Shiva's :" + Add(10, 20));
+            Console.WriteLine("Out put  Shiva's :" + Add(30, 50));
             Console.WriteLine("Out put :" + Percentage(10, 20));
             Console.WriteLine("Out put of addition :"+Add(10,20));
             Console.WriteLine("Modulus :"+Modulus(12,5));
@@ -29,7 +29,7 @@ namespace Uno_Calculator
         static int Add(int a, int b)
            
         {
-            return a + b+10;
+            return a + b+100;
             
         }
         static int Divide(int a, int b) {
