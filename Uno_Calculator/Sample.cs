@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Numerics;
 using System.Text;
 
 namespace Uno_Calculator
@@ -10,11 +11,16 @@ namespace Uno_Calculator
         static void Main(string[] args)
         {
             Console.WriteLine("Out put :"+Add(10,20));
+            Console.WriteLine("Modulus :"+Modulus(12,5));
         }
 
         static int Add(int a, int b)
         {
             return a + b;
+        }
+        static int Modulus(int c, int d)
+        {
+            return c % d;
         }
     }
 }
